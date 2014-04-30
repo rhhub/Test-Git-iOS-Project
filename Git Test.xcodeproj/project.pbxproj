@@ -21,6 +21,7 @@
 		35B19C7F19106F7700C47161 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B19C6119106F7700C47161 /* UIKit.framework */; };
 		35B19C8719106F7700C47161 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35B19C8519106F7700C47161 /* InfoPlist.strings */; };
 		35B19C8919106F7700C47161 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B19C8819106F7700C47161 /* Git_TestTests.m */; };
+		35B19C94191074D300C47161 /* RHTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B19C93191074D300C47161 /* RHTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		35B19C8419106F7700C47161 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		35B19C8619106F7700C47161 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		35B19C8819106F7700C47161 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		35B19C92191074D300C47161 /* RHTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTest.h; sourceTree = "<group>"; };
+		35B19C93191074D300C47161 /* RHTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		35B19C5119106F7700C47161 = {
 			isa = PBXGroup;
 			children = (
+				35B19C92191074D300C47161 /* RHTest.h */,
+				35B19C93191074D300C47161 /* RHTest.m */,
 				35B19C6319106F7700C47161 /* Git Test */,
 				35B19C8219106F7700C47161 /* Git TestTests */,
 				35B19C5C19106F7700C47161 /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35B19C6E19106F7700C47161 /* RHAppDelegate.m in Sources */,
+				35B19C94191074D300C47161 /* RHTest.m in Sources */,
 				35B19C6A19106F7700C47161 /* main.m in Sources */,
 				35B19C7419106F7700C47161 /* RHViewController.m in Sources */,
 			);
